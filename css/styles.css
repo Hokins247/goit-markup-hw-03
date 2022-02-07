@@ -6,7 +6,7 @@
   --primary-white-color: white;
 }
 body {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   background-color: var(--primary-white-color);
   color: var(--primaey-text-color);
 }
@@ -33,6 +33,9 @@ body {
 }
 .navigation-link:hover,
 .navigation-link:focus {
+  color: var(--buttom-push-color);
+}
+.navigation-link.current {
   color: var(--buttom-push-color);
 }
 .my-contact-links {
@@ -78,6 +81,9 @@ body {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+}
+.my-team-section {
+  background-color: rgba(245, 244, 250, 1);
 }
 .title {
   font-weight: 700;
@@ -125,10 +131,10 @@ body {
 }
 .my-contact-links2:hover,
 .my-contact-links2:focus {
-  color: var(--buttom-push-color);
+  color: var(--buttom-color);
 }
 /*Portfolio*/
-.title-sort {
+.button {
   background-color: var(--buttom-color);
   font-weight: 500;
   font-size: 16px;
@@ -137,11 +143,16 @@ body {
   letter-spacing: 0.03em;
   cursor: pointer;
 }
-.title-sort:hover,
-.title-sort:focus {
+.button:hover,
+.button:focus {
   color: var(--primary-white-color);
   background-color: var(--buttom-push-color);
 }
+.button.primary {
+  background-color: var(--buttom-push-color);
+  color: var(--primary-white-color);
+}
+
 .name-function {
   font-weight: 700;
   font-size: 18px;
@@ -153,4 +164,7 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+}
+li {
+  list-style-type: none;
 }
