@@ -12,6 +12,14 @@ body {
 }
 
 /*Header links*/
+.header-section {
+  outline: 1px solid #ececec;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+}
 .web-link1 {
   color: var(--buttom-push-color);
   font-family: Raleway;
