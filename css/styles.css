@@ -155,6 +155,13 @@ body {
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 94px;
+}
+.foto-container {
+  display: flex;
+}
+.foto-container .item + .item {
+  margin-right: 30px;
 }
 .name {
   font-weight: 500;
