@@ -20,8 +20,15 @@ body {
   margin-right: auto;
   width: 1200px;
 }
+.main-nav {
+  display: flex;
+  align-items: center;
+}
 .web-link1 {
   color: var(--buttom-push-color);
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 25px;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -31,8 +38,12 @@ body {
 }
 .web-link2 {
   color: var(--primaey-text-color);
+  margin-right: 92px;
 }
 .navigation-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--primaey-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -47,7 +58,23 @@ body {
 .navigation-link.current {
   color: var(--buttom-push-color);
 }
+.navigation-link-section {
+  display: flex;
+}
+.navigation-link-section .item:not(:last-child) {
+  margin-right: 50px;
+}
+.contact-section {
+  display: flex;
+  margin-left: auto;
+}
+.contact-section .item + .item {
+  margin-left: 50px;
+}
 .my-contact-links {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -73,6 +100,7 @@ body {
   background-color: #2f303a;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 0;
 }
 .button-title-section {
   color: var(--primary-white-color);
