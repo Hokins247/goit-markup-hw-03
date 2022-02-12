@@ -162,7 +162,6 @@ body {
   margin-top: 50px;
   padding-left: 0px;
   align-items: center;
-  width: 1170px;
 }
 .foto-container .item:not(:last-child) {
   margin-right: 30px;
@@ -234,14 +233,24 @@ body {
   color: var(--buttom-color);
 }
 /*Portfolio*/
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 94px;
+}
+.button-container .item:not(:last-child) {
+  padding-right: 8px;
+}
 .button {
-  background-color: var(--buttom-color);
+  background-color: #f5f4fa;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
+  padding: 6px 22px;
+  border-radius: 4px;
 }
 .button:hover,
 .button:focus {
@@ -252,19 +261,34 @@ body {
   background-color: var(--buttom-push-color);
   color: var(--primary-white-color);
 }
-
 .name-function {
   color: var(--primaey-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-top: 20px;
+  margin-bottom: 4px;
 }
 .sort {
   color: var(--text-color);
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+  margin-top: 0px;
+}
+.function-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  margin-top: 50px;
+}
+.function-section {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.function-section:nth-child(3n) {
+  margin-right: 0px;
 }
 .function-section a {
   text-decoration: none;
