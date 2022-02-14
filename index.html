@@ -14,57 +14,65 @@
 </head>
 <body>
     <!--Header-section-->
-    <header class="container main-nav header-section">
-        <nav><div class="main-nav">
-        <a href="/" class="web-link1">Web<span class="web-link2">Studio</span></a>
-        <ul class="navigation-link-section">
-            <li class="item"><a href="./index.html" class="navigation-link current">Студия</a></li>
-            <li class="item"><a href="./portfolio.html" class="navigation-link">Портфолио</a></li>
-            <li class="item"><a href="" class="navigation-link">Контакты</a></li>
-        </ul></div>
-        </nav>
-        <ul class="contact-section"><div class="main-nav">
-            <li class="item"><a href="info@devstudio.com" class="my-contact-links">info@devstudio.com</a></li>
-            <li class="item"><a href="+380961111111" class="my-contact-links">+38 096 111 11 11</a></li>
-        </ul></div>
+    <header class="header-section">
+        <div class="container main-nav">
+            <nav class="main-nav">
+            <a href="/" class="web-link1">Web<span class="web-link2">Studio</span></a>
+            <ul class="navigation-link-section">
+                <li class="item"><a href="./index.html" class="navigation-link current">Студия</a></li>
+                <li class="item"><a href="./portfolio.html" class="navigation-link">Портфолио</a></li>
+                <li class="item"><a href="" class="navigation-link">Контакты</a></li>
+            </ul>
+            </nav>
+            <ul class="contact-section">
+                <li class="item"><a href="info@devstudio.com" class="my-contact-links">info@devstudio.com</a></li>
+                <li class="item"><a href="+380961111111" class="my-contact-links">+38 096 111 11 11</a></li>
+            </ul>
+        </div>
     </header>
     <!--Main-section-->
-    <main class="container">
+    <main>
         <section class="title-section">
-            <h1 class="title-hero">Эффективные решения <br> для вашего бизнеса</h1>
+            <div class="container">
+            <h1 class="title-hero">Эффективные решения для вашего бизнеса</h1>
             <button type="button" class="button-title-section">Заказать услугу</button>
+            </div>
         </section>
-    <section class="container">
-        <ul class="skills-section">
-            <li class="item">
-                <h3 class="skills">Внимание к деталям</h3>
-                <p class="description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-            </li>
-            <li class="item">
-                <h3 class="skills">Пунктуальность</h3>
-                <p class="description">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-            </li>
-            <li class="item">
-                <h3 class="skills">Планирование</h3>
-                <p class="description">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-            </li>
-            <li class="item">
-                <h3 class="skills">Современные технологии</h3>
-                <p class="description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-            </li>
-        </ul>
+    <section>
+        <div class="container">
+            <ul class="skills-section">
+                <li class="item">
+                    <h3 class="skills">Внимание к деталям</h3>
+                    <p class="description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                </li>
+                <li class="item">
+                    <h3 class="skills">Пунктуальность</h3>
+                    <p class="description">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                </li>
+                <li class="item">
+                    <h3 class="skills">Планирование</h3>
+                    <p class="description">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                </li>
+                <li class="item">
+                    <h3 class="skills">Современные технологии</h3>
+                    <p class="description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                </li>
+            </ul>
+        </div>
     </section>
-    <section class="container">
-        <h2 class="title">Чем мы занимаемся</h2>
-        <ul class="foto-container">
-            <li class="item"><img src="./images/1.jpg" alt="work" width="370"></li>
-            <li class="item"><img src="./images/2.jpg" alt="work" width="370"></li>
-            <li class="item"><img src="./images/3.jpg" alt="work" width="370"></li>
-        </ul>
+    <section>
+        <div class="container">
+            <h2 class="title-work">Чем мы занимаемся</h2>
+            <ul class="foto-container">
+                <li class="item"><img src="./images/1.jpg" alt="work" width="370"></li>
+                <li class="item"><img src="./images/2.jpg" alt="work" width="370"></li>
+                <li class="item"><img src="./images/3.jpg" alt="work" width="370"></li>
+            </ul>
+        </div>
     </section>
     <section class="my-team-section">
-        <h2 class="title">Наша команда</h2>
         <div class="container">
+        <h2 class="title">Наша команда</h2>
             <ul class="people-container">
             <li class="item">
                 <img src="./images/4.jpg" alt="photo" width="270">
@@ -86,12 +94,13 @@
                 <h3 class="name">Михаил Ермаков</h3>
                 <p class="profession">UI Designer</p>
             </li>
-        </ul></div>
+        </ul>
+        </div>
     </section>
     </main>
     <!--Footer-section-->
-    <footer class="footer-section container">
-        <div class="footer-container"><a href="/" class="web-link1">Web<span class="web-link3">Studio</span></a>
+    <footer class="footer-section">
+        <div class="container"><a href="/" class="web-link1">Web<span class="web-link3">Studio</span></a>
         <address class="company-address">г. Киев, пр-т Леси Украинки, 26
             <ul class="footer-section">
                 <li><a href="info@devstudio.com" class="my-contact-links2">info@devstudio.com</a></li>
