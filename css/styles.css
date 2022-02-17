@@ -41,6 +41,8 @@ body {
 }
 .web-link2 {
   color: var(--primaey-text-color);
+}
+.web-link4 {
   margin-right: 93px;
 }
 .navigation-link {
@@ -194,7 +196,7 @@ body {
 .foto-container .item:not(:last-child) {
   margin-right: 30px;
 }
-.images {
+.images img {
   display: block;
 }
 .title {
@@ -254,9 +256,11 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.web-footer {
+  margin-bottom: 20px;
+}
 .web-link3 {
   color: var(--primary-white-color);
-  margin-bottom: 20px;
   display: inline-block;
 }
 .company-address {
@@ -283,6 +287,9 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   display: block;
+}
+.my-link-footer {
+  margin-bottom: 9px;
 }
 .my-contact-links2:hover,
 .my-contact-links2:focus {
@@ -336,7 +343,6 @@ body {
   margin-right: 30px;
   margin-bottom: 30px;
   background: #ffffff;
-  border: 1px solid #eeeeee;
 }
 .function-section:nth-child(3n) {
   margin-right: 0px;
@@ -348,6 +354,10 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
+  padding-right: 24px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 .name-function {
   color: var(--primaey-text-color);
